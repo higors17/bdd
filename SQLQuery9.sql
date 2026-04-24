@@ -1,0 +1,9 @@
+CREATE DATABASE EmpresaDB;
+
+USE EmpresaDB;
+
+CREATE TABLE Departamento
+ Id INT IDENTITY (1,1) PRIMARY KEY,
+ Nome VARCHAR (100) NOT NULL UNIQUE,
+ DataCriacao DATE
+ ;
